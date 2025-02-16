@@ -82,16 +82,8 @@ nav{
     line-height: 2rem;
 }
 
-.title{
-    justify-content: space-around;
-    width: 70rem;
-    margin-right: auto;
-    margin-left: auto;
-}
-.title2{
-    width: 70rem;
-    margin-right: auto;
-    margin-left: auto;
+.texto{
+    
 }
 .bluebg img{
     height: 20rem;
@@ -157,8 +149,15 @@ nav{
 
 .title{
     margin-top: -1.8rem;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+.title2{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 .title2 img{
     
     height: 18rem;
@@ -178,7 +177,7 @@ nav{
     margin-top: -1rem;
 }
 .title2 #titulo{
-    margin-left: 40vw;
+    margin-left: 35vw;
     margin-top: -18.5rem;
 }
 span{
@@ -226,18 +225,32 @@ footer a{
     }
     .title img{
         height: 14rem;
-        margin-left: 50vw;
+        margin-left: 36vw;
     }
     .title2 img{
         height: 14rem;
-        margin-right: 50vw;
+        margin: 0;
+    }
+    .title2 p{
+        margin-bottom: 0;
+        width: 18rem;
+    }
+    .title2 h2{
+        width: 18rem;
+    }
+    .title2 #titulo{
+        margin-top: -15rem;
+        margin-left: 36vw;
+    }
+    .title2{
+        margin-top: -8rem;
     }
 }
 
 @media (max-width: 1024px){
     .title img{
         height: 10rem;
-        margin-left: 50vw;
+        margin-left: 40vw;
         margin-top: -7rem;
     }
     .title2 img{
@@ -257,7 +270,7 @@ footer a{
     }
     .title2 h2{
         font-size: 1.6rem;
-        margin-top: 8rem;
+        margin-top: 4.5rem;
         margin-right: 0;
     }
     .bluebg img{
@@ -265,6 +278,10 @@ footer a{
     }
     .bluebg h1{
         font-size: 2.5rem;
+    }
+    .title2 #titulo{
+        margin-left: 39vw;
+        scale: 0.9;
     }
 }
 
@@ -277,6 +294,7 @@ footer a{
     }
     .title{
         display: grid;
+        width: 100%;
     }
     .title img{
         height: 10rem;
@@ -298,6 +316,7 @@ footer a{
         display: grid;
         height: 25rem;
         margin-top: -15rem;
+        width: 100%;
     }
     .title2 img{
         height: 10rem;
@@ -307,7 +326,7 @@ footer a{
     }
     .title2 h2{
         text-align: center;
-        margin-top: 0rem; 
+        margin-top: -3rem; 
     }
     .title2 p{
         text-align: center;
@@ -359,5 +378,8 @@ footer a{
     }
     body{
         height: 140rem;
+    }
+    .texto h1{
+        margin-top: 2rem;
     }
 }
