@@ -1,0 +1,354 @@
+html{
+    height: 100%;
+}
+
+header{
+    background-color: #274989;
+}
+body{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 130rem;
+    position: relative;
+    margin: 0;
+    }
+
+header img{
+    height: 5rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    user-select: none;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 6rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+a:hover{
+    color: #FBC646;
+    transition: all 0.2s;
+}
+nav{
+    display: flex;
+    height: 6rem;
+    justify-content: space-around;
+}
+.nav-list li{
+    margin-left: 3.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-left: 20rem;
+}
+.bluebg{
+    margin-top: 5.5rem;
+    background-color: #274989;
+    height: 36rem;
+    position: absolute;
+    left: 0;
+    display: flex;
+    right: 0;
+    justify-content: space-around;
+}
+.bluebg h1{
+    margin-top: 10rem;
+    margin-bottom: 16rem;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #E8EAF3;
+    width: 45vw;
+}
+.texto p{
+    color: #E8EAF3;
+    margin-top: -15rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.texto{
+    
+}
+.bluebg img{
+    height: 20rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -20rem;
+}
+
+.yellowbg{
+    margin-top: 41.5rem;
+    left: 0;
+    display: flex;
+    right: 0;
+    position: absolute;
+    background-color: #FBC646;
+    height: 68.4rem;
+}
+.yellowbg h1{
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FBC646;
+    background-color: #1E1E1E;
+    margin-top: 5rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    padding-top: 1.5rem;
+    height: 4.5rem;
+}
+.oq{
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h2{
+    margin-top: 0rem;
+    color: #1E1E1E;
+    text-decoration: underline;
+    font-size: 2.25rem;
+}
+.title p{
+    font-size: 1.1250rem;
+    font-weight: 500;
+    margin-top: -1rem;
+    width: 30rem;
+}
+
+
+.title img{
+    height: 18rem;
+    margin-left: 40vw;
+    margin-top: -7rem;
+}
+.coisas{
+    display: grid;
+    row-gap: 15rem;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 20rem;
+    width: 100%;
+    height: 20rem;
+}
+
+.title{
+    margin-top: -1.8rem;
+}
+
+.title2 img{
+    
+    height: 18rem;
+    margin-left: 0vw;
+    margin-top: -7rem;
+}
+.title2 h2{
+    margin-top: 0rem;
+    color: #1E1E1E;
+    text-decoration: underline;
+    font-size: 2.25rem;
+}
+
+.title2 p{
+    font-size: 1.1250rem;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+.title2 #titulo{
+    margin-left: 40vw;
+    margin-top: -18.5rem;
+}
+span{
+    color: #FBC646;
+}
+
+footer{
+    background-color: #274989;
+    position: sticky;
+    height: 20.1rem;
+    top: 110%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+footer img{
+    height: 10rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10rem;
+}
+
+footer .redes, .nave{
+    display: flex;
+    flex-direction: column;
+}
+footer h3{
+    margin-bottom: 1rem;
+    color: #E8EAF3;
+    font-weight: 700;
+}
+footer a{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+@media (max-width: 1440px){
+    .bluebg img{
+        margin-left: 0rem;
+    }
+    .nav-list{
+        margin-left: 0rem;
+    }
+    .title img{
+        height: 14rem;
+        margin-left: 50vw;
+    }
+    .title2 img{
+        height: 14rem;
+        margin-right: 50vw;
+    }
+}
+
+@media (max-width: 1024px){
+    .title img{
+        height: 10rem;
+        margin-left: 50vw;
+        margin-top: -7rem;
+    }
+    .title2 img{
+        height: 10rem;
+    }
+    .title h2{
+        font-size: 1.6rem;
+    }
+    .title p{
+        font-size: 1rem;
+        width: 20rem;
+    }
+    .title2 p{
+        font-size: 1rem;
+        width: 20rem;
+        margin-right: 0;
+    }
+    .title2 h2{
+        font-size: 1.6rem;
+        margin-top: 8rem;
+        margin-right: 0;
+    }
+    .bluebg img{
+        height: 15rem;
+    }
+    .bluebg h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    .nav-list li{
+        margin-left: 2rem;
+    }
+    .nav-list li{
+        margin-left: 2rem;
+    }
+    .title{
+        display: grid;
+    }
+    .title img{
+        height: 10rem;
+        margin-top: 0rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title h2{
+        text-align: center;
+    }
+    .title p{
+        font-size: 1rem;
+        width: 20rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title2{
+        display: grid;
+        height: 25rem;
+        margin-top: -15rem;
+    }
+    .title2 img{
+        height: 10rem;
+        margin-top: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title2 h2{
+        text-align: center;
+        margin-top: 0rem; 
+    }
+    .title2 p{
+        text-align: center;
+    }
+    .title2 #titulo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bluebg h1{
+        margin-top: 5rem;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bluebg p{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bluebg img{
+        margin-top: 21rem;
+        position: absolute;
+        margin-left: 0rem;
+        margin-right: auto;
+        height: 14rem;
+    }
+    .nav-list{
+        margin-left: -5rem;
+    }
+    .nav-list li{
+        margin-left: 1rem;
+    }
+    .oq h1{
+        font-size: 1.5rem;
+        height: 3rem;
+    }
+    nav img{
+        height: 3rem;
+    }
+    footer img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .redes, .nave{
+        margin-left: 9rem;
+    }
+    footer{
+        height: 35rem;
+    }
+    body{
+        height: 140rem;
+    }
+}
