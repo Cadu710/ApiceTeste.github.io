@@ -199,7 +199,6 @@ footer .redes, .nave{
     display: flex;
     flex-direction: column;
     margin-left: 10rem;
-    margin-right: 2rem;
 }
 footer h3{
     margin-bottom: 1rem;
